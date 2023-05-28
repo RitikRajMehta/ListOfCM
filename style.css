@@ -1,0 +1,50 @@
+/* CSS styles for the table */
+
+h1 {
+    text-align: center;
+    background: linear-gradient(#f96102 0%, #fbfaf9, green);
+    border-radius: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+body
+{
+    align-items: center;
+    min-height: 100vh;
+   
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    animation: animateBg 5s linear infinite;
+    background-size: contain;
+    background-position: center;
+    background: url('back.jpg.jpg');
+}
+
+
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+  } 
+
+th{
+    background-color: #fa0909;
+    border-radius: 10px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    color: aliceblue;
+    border-color: #fff;
+  
+  }
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
